@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屏幕翻译</string>
+
+    <string name="status_idle">未运行。授予悬浮窗权限后点「开始翻译」。</string>
+    <string name="start_translate">开始翻译</string>
+    <string name="stop_translate">停止</string>
+
+    <string name="section_permissions">权限</string>
+    <string name="grant_overlay">授予悬浮窗权限</string>
+    <string name="grant_overlay_ok">悬浮窗权限：已授予</string>
+    <string name="grant_overlay_missing">悬浮窗权限：未授予（点此前往设置）</string>
+    <string name="grant_notification">授予通知权限</string>
+    <string name="grant_notification_ok">通知权限：已授予</string>
+    <string name="grant_notification_missing">通知权限：未授予（Android 13+ 需要）</string>
+
+    <string name="section_engine">翻译引擎</string>
+    <string name="engine_free">自动（推荐：优先百度，失败自动降级）</string>
+    <string name="engine_device">设备端离线（ML Kit，需谷歌服务）</string>
+    <string name="engine_baidu">百度翻译（云端，需填密钥）</string>
+    <string name="baidu_app_id_hint">百度翻译 APP ID</string>
+    <string name="baidu_key_hint">百度翻译密钥</string>
+    <string name="download_model">下载离线翻译模型</string>
+
+    <string name="section_behavior">行为</string>
+    <string name="auto_mode">自动翻译（画面变化时自动刷新）</string>
+    <string name="touch_mode">对照模式（卡片可点，仅卡片区域拦触摸；关闭时全屏触摸完全穿透）</string>
+
+    <string name="section_glossary">术语表</string>
+    <string name="import_glossary">导入</string>
+    <string name="export_glossary">导出</string>
+    <string name="glossary_count_format">已加载 %1$d 条术语</string>
+
+    <string name="section_help">使用说明</string>
+    <string name="help_text">1. 点「开始翻译」，系统弹窗里允许屏幕捕获。\n2. 切换到被翻译的 App（如扫地机器人 App）。\n3. 点悬浮球「译」：翻译当前屏幕；再次点：清除译文。\n4. 双击悬浮球：全局切换译文/原文；长按：回到本页。\n5. 拖动悬浮球可挪到不挡内容的位置。\n6. 悬浮球和译文卡片不会被截进识别画面，也不会挡住你对屏幕的操作。\n\n注意：\n· Android 10+ 每次启动翻译都要重新确认屏幕捕获授权，这是系统限制。\n· 引擎默认「自动」：填了百度密钥就先用百度，百度报错（密钥无效/额度用尽）会自动改用免密钥接口，不会只弹翻译失败。\n· 设备端离线需要手机有谷歌服务（GMS），国产机不用选它。\n· 百度翻译免费标准版限 1 次/秒，整屏文本会合并成一次请求，够用。</string>
+</resources>

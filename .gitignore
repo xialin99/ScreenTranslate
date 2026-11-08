@@ -1,0 +1,14 @@
+node_modules/
+dist/
+out/
+release/
+build/
+app/build/
+.gradle/
+.debug/
+.trae/
+*.keystore
+*.apk
+local.properties
+.DS_Store
+release/

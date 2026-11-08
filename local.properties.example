@@ -1,0 +1,4 @@
+# 本文件由 Android Studio 自动生成，不要提交到版本库
+# 把 sdk.dir 指向你机器上的 Android SDK 目录
+# Windows 示例（注意用双反斜杠或正斜杠）：
+# sdk.dir=C:\\Users\\你的用户名\\AppData\\Local\\Android\\Sdk
